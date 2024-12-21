@@ -18,7 +18,7 @@ export default function Home() {
     <>
       <div className='h-screen max-w-full px-8 py-4'>
         <Appbar />
-        <main className=' w-fit flex flex-col-reverse justify-center items-center sm:flex-row sm:justify-evenly sm:h-full sm:w-full '>
+        <main className=' w-fit flex flex-col-reverse justify-center items-center sm:flex-row sm:justify-evenly  sm:w-full '>
           <div className={`${inter.className} sm:mb-28`}>
             <div
               className={`text-7xl text-center  text-transparent bg-clip-text  bg-gradient-to-bl from-[#000000] to-[#666666] sm:bg-gradient-to-bl sm:from-[#000000] sm:to-[#666666] mb-6 `}
@@ -28,7 +28,7 @@ export default function Home() {
             </div>
             <div
               id='cards'
-              className='grid grid-cols-3 gap-y-4 gap-x-12 place-items-center  sm:gap-x-2'
+              className='grid grid-cols-3 gap-y-4 gap-x-12 place-items-center mb-10 sm:gap-x-2'
             >
               {landingTexts.slice(0, 3).map((text, index) => (
                 <Card title={text.title} key={index} />
