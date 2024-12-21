@@ -33,8 +33,8 @@ const socials = [
 export default function Footer() {
   return (
     <>
-      <footer className='mt-8 flex justify-around items-center text-[#757575] bottom-14 fixed left-0 right-0'>
-        <div className={`text-lg ${dm_mono.className} `}>
+      <footer className='flex flex-col sm:flex-row justify-around items-center text-[#757575] bottom-0 left-0 right-0 fixed sm:py-8'>
+        <div className={`text-lg sm:text-xl ${dm_mono.className} `}>
           <p>Made with ❤️ by Me</p>
         </div>
         <ul className='flex gap-x-'>
@@ -46,7 +46,7 @@ export default function Footer() {
                 rel='noopener noreferrer'
                 className='inline-block p-2 hover:bg-gray-300 rounded-full'
               >
-                <social.logo size={32} />
+                <social.logo size={24} className='h-[32px] w-[32px]' />
               </Link>
             </li>
           ))}
