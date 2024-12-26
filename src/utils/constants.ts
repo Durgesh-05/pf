@@ -32,21 +32,31 @@ export const socials = [
 export const projects: ICardProps[] = [
   {
     title: 'Gadget-Galaxy',
-    description: 'Ecommerce Website',
+    description:
+      'Modern E-commerce website with a simple design, secured payment gateway and user authentication.',
     githubUrl: 'https://github.com/Durgesh-05/Gadget-Galaxy',
-    publicUrl: 'gadget-galaxy-psi.vercel.app/',
-    tags: ['#React.', '#Node.', '#Express.', '#MongoDB.'],
+    publicUrl: 'https://gadget-galaxy-psi.vercel.app/',
+    tags: [
+      '#ReactJS.',
+      '#NodeJS.',
+      '#ExpressJS.',
+      '#MongoDB.',
+      '#Tailwind.',
+      '#Stripe.',
+    ],
   },
   {
     title: 'Medium Clone',
-    description: 'Blog Website',
+    description:
+      'Medium Clone built using HonoJS and deployed on cloudflare workers',
     githubUrl: 'https://github.com/Durgesh-05/turbo-octo-spoon',
-    publicUrl: 'turbo-octo-spoon-two.vercel.app/',
+    publicUrl: 'https://turbo-octo-spoon-two.vercel.app/',
     tags: [
-      '#React.',
-      '#Hono.',
-      '#Postgres.',
+      '#ReactJS.',
+      '#HonoJS.',
+      '#PostgreSQL.',
       '#Typescript.',
+      '#Tailwind.',
       '#Cloudflare Workers.',
     ],
   },
@@ -59,7 +69,7 @@ export const projects: ICardProps[] = [
   },
   {
     title: 'ToDesktop',
-    description: 'Modern Landing Page',
+    description: 'Modern Landing Page with modern designs and animations',
     githubUrl: 'https://github.com/Durgesh-05/tailwind_css',
     publicUrl: 'https://tailwind-css-lovat-kappa.vercel.app/',
     tags: ['#HTML.', '#Javascript.', '#Tailwind.'],

@@ -15,7 +15,7 @@ export default function Card({
     <div className='my-4 flex flex-col space-y-2'>
       <div className='flex gap-2'>
         <h4
-          className={`text-[#868686] text-xl font-semibold ${dm_mono.className}`}
+          className={`text-[#868686] text-xl sm:text-2xl font-semibold ${dm_mono.className}`}
         >
           {title}
         </h4>
@@ -26,7 +26,7 @@ export default function Card({
             rel='noopener noreferrer'
             className='inline-block rounded-full'
           >
-            <GithubLogo size={16} className='sm:h-[32px] sm:w-[32px]' />
+            <GithubLogo size={16} className='sm:h-[20px] sm:w-[20px]' />
           </Link>
           <Link
             href={publicUrl}
@@ -34,14 +34,16 @@ export default function Card({
             rel='noopener noreferrer'
             className='inline-block rounded-full'
           >
-            <PublicLink size={16} className='sm:h-[32px] sm:w-[32px]' />
+            <PublicLink size={16} className='sm:h-[20px] sm:w-[20px]' />
           </Link>
         </div>
       </div>
-      <p className='text-[#868686] text-sm '>{description}</p>
-      <div className='flex flex-wrap items-center gap-2'>
+      <p className='text-[#868686] text-sm mb-2 sm:font-semibold'>
+        {description}
+      </p>
+      <div className='flex flex-wrap items-center gap-2 sm:gap-3'>
         {tags.map((tag, index) => (
-          <Tag title={tag} key={index} />
+          <Tag title={tag} key={index} className='sm:text-sm' />
         ))}
       </div>
     </div>

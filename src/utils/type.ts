@@ -5,3 +5,8 @@ export interface ICardProps {
   publicUrl: string;
   tags: string[];
 }
+
+export interface ITagProps {
+  title: string;
+  className?: string | undefined;
+}
