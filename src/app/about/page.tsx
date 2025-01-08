@@ -29,7 +29,7 @@ export default function About() {
         </p>
 
         <p>
-          Currently, I'm an{' '}
+          Currently, I&apos;m an{' '}
           <strong className='text-[#c2c2c2]'>
             intern at Tsecond Organisation
           </strong>{' '}
@@ -37,7 +37,7 @@ export default function About() {
           scalable full-stack applications.
         </p>
 
-        <p>Let’s connect and build something amazing! 🚀</p>
+        <p>Let&apos;s connect and build something amazing! 🚀</p>
       </div>
     </div>
   );
