@@ -65,7 +65,7 @@ export default function Appbar() {
       {isOpen && (
         <div
           ref={menuRef}
-          className='sm:hidden absolute top-16 left-0 w-full h-full bg-black text-[#868686] flex flex-col items-end px-10 space-y-4'
+          className='sm:hidden absolute top-16 left-0 w-full h-full bg-black text-[#868686] flex flex-col items-end px-10 space-y-4 z-50'
         >
           <Link
             href='/about'
